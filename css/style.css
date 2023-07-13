@@ -1,0 +1,343 @@
+/*index*/
+body{
+	font-family: arial;
+	margin: 0;
+}
+/*header*/
+.container-1{
+	background-color:black;
+	padding-left: 16%;
+	padding-right: 85%;
+	position: fixed;
+	overflow: auto;
+	top: 0;
+	z-index: 12;
+}
+/*texts*/
+p{
+	font-size: 20px;
+}
+h1{
+	color: white;
+}
+h2{
+	color: white;	
+}
+h4{
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+	
+}
+
+/*navbar*/
+.logo{
+	margin-bottom: 5px;
+	padding-left: 5%;
+	width: 90%;
+}
+ul {
+	background-color:#D8E0E7;
+	height: 100%;
+	list-style-type: none;
+	margin: 0;
+	overflow: auto;
+	padding: 6% 0 0 0;
+	position: fixed; 
+	top:0; 
+	width: 210px;
+}
+
+li a {
+	color: black;
+	display: block;
+	margin-top: 10px;
+	padding: 10px 10px 10px 20px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: white;
+	color: black;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+li a:hover:not(.active) {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+/*footer*/
+.footer{
+	background-color: black;
+	padding: 30px 140px 20px 250px;
+	color: white;
+	margin: 0 0 0 0;
+	text-align: center;
+	font-size: 15px;
+	text-align: center;
+}
+.footer1{
+	display: inline;
+	font-size: 30px;
+	padding: 10px;
+	margin: 10px 0 0 100px;
+}
+.footer2{
+	color: white;
+	font-size: 14px;
+	padding: 30px 130px 20px 250px;
+}
+
+/*content*/
+.in{
+	background: rgba(0,0,0, .4);
+	color: white;
+	font-size: 40px;
+	padding: 20px;
+    text-shadow: 1px 1px 1px black;	
+}
+.container-2 {
+	background-image: url('../img/background1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-attachment: fixed;
+	margin-top: 68px;
+	padding: 50px 40px 140px 250px;
+	text-align: center;
+
+}
+.container-3 {
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 100px;
+	padding: 40px 10px 0px 120px;
+	text-align: center;
+
+}
+.houses{
+	float: center;
+	margin: 10px 0 70px 0;
+	padding: 10px 0px 10px 0px;	
+	text-align: center;
+}
+.ho{
+	display: inline;
+	float: center;
+	padding-bottom: 150px;	
+}
+.hl{
+	border: solid 1px black;
+	margin: 10px;
+	padding: 10px;
+	transition: transform .2s;
+	width: 200px;	
+}
+.hl:hover{
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(1.2); /* Safari 3-8 */
+	transform: scale(1.2); 
+}
+.sort{
+	color: black;
+	font-size: 50px;
+	margin: 0;	
+	padding:50px 0 50px 0;
+}
+.sort1{
+	color: black;
+	float: center;
+	width: 340px;	
+}
+.line{
+	border: 3px solid black;
+	margin-left: 25%;
+	width: 50%;	
+}
+.hm{
+	background-image: url('../img/background2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-attachment: fixed;
+	margin: 70px 0 0 0;
+	padding: 100px 50px 100px 250px;
+}
+.hm0{
+	margin: 60px 0 0 0;
+	background-color: rgba(0,0,0, .7);
+	padding: 0 30px 10px 400px;
+	font-size: 25px;
+}
+.hm1{
+	margin: 10px 0 0 50px;
+	border-radius: 50%;
+	width: 300px;
+	float: left;
+}
+
+/*announcements*/
+.ann{
+	padding: 50px 0 40px 270px;
+	margin: 0 100px 0 20px;
+}
+.annh{
+	text-align: center;
+	color: black;
+	font-size: 40px;
+}
+.ann2{
+	padding: 80px 0 0 10px;
+	margin: 0 0 70px 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* courses*/
+.container-4{
+	padding: 100px 0 0 0;
+}
+.coursI{
+	display: block;
+	width: 300px;
+	height: 300px;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 10;
+	background-color: rgba(0, 0, 0, .9);
+	overflow: hidden;
+	text-align: left;
+	width: 100%;
+	height: 0;
+	font-size: 17px;
+	transition: .5s ease;
+	color: white;
+}
+td:hover .overlay{
+	height: 100%;
+}
+td{
+	position: relative;
+	overflow: auto;
+	z-index: -1;
+}
+table, td{
+	margin: 50px 0 70px 19%;
+	text-align: center;
+	padding: 0;
+}
+table{
+	font-size: 25px;
+	width: 60%;
+	border-spacing: 40px 0px;
+    border-collapse: separate;
+}
+
+th {
+	margin: 0;
+	border: 1px solid gray;
+	height: 20px;
+	padding: 10px;
+}
+
+/*houses*/
+.houseText{
+	color: white;
+}
+.houseText1{
+	color: white;
+	font-size: 80px;
+	margin-bottom: 100px;
+}
+.houseLo{
+	margin: 0 0 0 0;
+	position: relative;
+	width: 200px;
+}
+.gryff{
+	background-image: url('../img/gryff.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-attachment: fixed;
+	margin-top: 68px;
+	padding: 50px 40px 10px 240px;
+	text-align: center;
+}
+.gryff1{
+	background-color:#591E1C;
+	margin: 0 0 0 200px;
+	height: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.slyth{
+	background-image: url('../img/slyth.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-attachment: fixed;
+	padding: 70px 40px 30px 240px;
+	text-align: center;
+}
+.slyth1{
+	background-color:#05201C;
+	margin: 0 0 0 200px;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.huffle{
+	background-image: url('../img/huffle.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-attachment: fixed;
+	padding: 90px 40px 10px 240px;
+	text-align: center;
+}
+.huffle1{
+	background-color:#B17220;
+	margin: 0 0 0 200px;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.raven{
+	background-image: url('../img/raven.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-attachment: fixed;
+	padding: 90px 40px 10px 240px;
+	text-align: center;
+}
+.raven1{
+	background-color:#173151;
+	margin: 0 0 0 200px;
+	height: auto;
+	padding: 25px;
+	text-align: center;
+}
+
+/*events*/
+.logo1{
+	margin-bottom: 30px;
+	padding-left: 36%;
+	width: 25%;
+}
+.events{
+	background-color: #ECDFC3;
+	border: solid 1px black;
+	margin: 100px 40px 100px 250px;
+	padding: 50px
+}
+
+
+
+
+
+
+
